@@ -238,18 +238,18 @@
                 <form method="POST" action="{{ route('register') }}" class="formulario__register">
                     @csrf
                     <h2>Registrarse</h2>
+                     
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="nombre" placeholder="Nombre" required>
+
+                    <label for="lastName">Apellidos:</label>
+                    <input type="text" id="lastName" name="apellido" placeholder="Apellidos" required>
 
                     <label for="email">Correo Electrónico:</label>
                     <input type="text" id="email" name="email" placeholder="Correo Electrónico" required>
 
                     <label for="password">Contraseña:</label>
                     <input type="password" id="password" name="password" placeholder="Contraseña" required>
-
-                    <label for="name">Nombre:</label>
-                    <input type="text" id="name" name="nombre" placeholder="Nombre" required>
-
-                    <label for="lastName">Apellidos:</label>
-                    <input type="text" id="lastName" name="apellido" placeholder="Apellidos" required>
 
                     <label for="idtype">Tipo de Identificación:</label>
                     <select class="idtype" id="idtype" name="tipo_identificacion" required>
