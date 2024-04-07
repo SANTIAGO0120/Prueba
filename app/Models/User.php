@@ -22,7 +22,7 @@ class User extends Authenticatable
         'apellido',
         'email',
         'password',
-        'tipo_id',
+        'tipo_identificacion',
         'dni',
         'celular',
         'direccion',

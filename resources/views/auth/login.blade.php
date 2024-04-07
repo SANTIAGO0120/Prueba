@@ -252,7 +252,7 @@
                     <input type="text" id="lastName" name="apellido" placeholder="Apellidos" required>
 
                     <label for="idtype">Tipo de Identificación:</label>
-                    <select class="idtype" id="idtype" name="tipo_id" required>
+                    <select class="idtype" id="idtype" name="tipo_identificacion" required>
                         <option value="">Seleccione...</option>
                         <option value="cc">Cédula de Ciudadanía</option>
                         <option value="ce">Cédula de Extranjería</option>
