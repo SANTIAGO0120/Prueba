@@ -263,7 +263,7 @@
                     <input type="text" id="idNumber" name="n_id" placeholder="N. Identificación" required>
 
                     <label for="phone">N. Celular:</label>
-                    <input type="number" id="phone" name="cell" placeholder="N. Celular" required>
+                    <input type="number" id="phone" name="celular" placeholder="N. Celular" required>
 
                     <label for="address">Dirección:</label>
                     <input type="text" id="address" name="direccion" placeholder="Dirección" required>

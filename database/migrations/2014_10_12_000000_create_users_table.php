@@ -17,8 +17,8 @@ return new class extends Migration
             $table->string('apellido')->nullable();
             $table->string('email')->nullable();
             $table->string('password')->nullable();
-            $table->string('tipo_identificacion')->nullable();
-            $table->string('dni')->nullable();
+            $table->string('tipo_id')->nullable();
+            $table->string('n_id')->nullable();
             $table->string('celular')->nullable();
             $table->string('direccion')->nullable();
             $table->string('rol')->nullable();
