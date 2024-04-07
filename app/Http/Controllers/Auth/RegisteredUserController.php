@@ -36,7 +36,7 @@ class RegisteredUserController extends Controller
             'email' => ['required', 'string', 'lowercase', 'email', 'max:255'],
             'password' => ['required'],
             'tipo_id' => ['required', 'string', 'max:255'],
-            'n_id' => ['required', 'string', 'max:255'],
+            'dni' => ['required', 'string', 'max:255'],
             'celular' => ['required', 'string', 'max:255'],
             'direccion' => ['required', 'string', 'max:255'],
         ]);

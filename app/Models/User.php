@@ -23,7 +23,7 @@ class User extends Authenticatable
         'email',
         'password',
         'tipo_id',
-        'n_id',
+        'dni',
         'celular',
         'direccion',
         'rol',

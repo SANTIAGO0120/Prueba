@@ -260,7 +260,7 @@
                     </select>
 
                     <label for="idNumber">N. Identificación:</label>
-                    <input type="text" id="idNumber" name="n_id" placeholder="N. Identificación" required>
+                    <input type="text" id="idNumber" name="dni" placeholder="N. Identificación" required>
 
                     <label for="phone">N. Celular:</label>
                     <input type="number" id="phone" name="celular" placeholder="N. Celular" required>
